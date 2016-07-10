@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		926F890E1C8E13D7008706A9 /* HallOfTheMountainKing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 926F890D1C8E13D7008706A9 /* HallOfTheMountainKing.mp3 */; };
+		926F89101C8E13DF008706A9 /* ButtonTap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 926F890F1C8E13DF008706A9 /* ButtonTap.wav */; };
+		926F89121C8E13E6008706A9 /* SecondBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 926F89111C8E13E6008706A9 /* SecondBeep.wav */; };
+		926F89141C8E13F0008706A9 /* TapMe_Resources in Resources */ = {isa = PBXBuildFile; fileRef = 926F89131C8E13F0008706A9 /* TapMe_Resources */; };
 		9282837B1C89394D00B06323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9282837A1C89394D00B06323 /* AppDelegate.swift */; };
 		9282837D1C89394D00B06323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9282837C1C89394D00B06323 /* ViewController.swift */; };
 		928283801C89394D00B06323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9282837E1C89394D00B06323 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		926F890D1C8E13D7008706A9 /* HallOfTheMountainKing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HallOfTheMountainKing.mp3; sourceTree = "<group>"; };
+		926F890F1C8E13DF008706A9 /* ButtonTap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ButtonTap.wav; sourceTree = "<group>"; };
+		926F89111C8E13E6008706A9 /* SecondBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SecondBeep.wav; sourceTree = "<group>"; };
+		926F89131C8E13F0008706A9 /* TapMe_Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TapMe_Resources; sourceTree = "<group>"; };
 		928283771C89394D00B06323 /* Tap Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9282837A1C89394D00B06323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9282837C1C89394D00B06323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 				928283811C89394D00B06323 /* Assets.xcassets */,
 				928283831C89394D00B06323 /* LaunchScreen.storyboard */,
 				928283861C89394D00B06323 /* Info.plist */,
+				926F890D1C8E13D7008706A9 /* HallOfTheMountainKing.mp3 */,
+				926F890F1C8E13DF008706A9 /* ButtonTap.wav */,
+				926F89111C8E13E6008706A9 /* SecondBeep.wav */,
+				926F89131C8E13F0008706A9 /* TapMe_Resources */,
 			);
 			path = "Tap Me";
 			sourceTree = "<group>";
@@ -232,8 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926F89121C8E13E6008706A9 /* SecondBeep.wav in Resources */,
 				928283851C89394D00B06323 /* LaunchScreen.storyboard in Resources */,
+				926F89141C8E13F0008706A9 /* TapMe_Resources in Resources */,
 				928283821C89394D00B06323 /* Assets.xcassets in Resources */,
+				926F890E1C8E13D7008706A9 /* HallOfTheMountainKing.mp3 in Resources */,
+				926F89101C8E13DF008706A9 /* ButtonTap.wav in Resources */,
 				928283801C89394D00B06323 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +501,7 @@
 				928283A11C89394D00B06323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		928283A21C89394D00B06323 /* Build configuration list for PBXNativeTarget "Tap MeTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +510,7 @@
 				928283A41C89394D00B06323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		928283A51C89394D00B06323 /* Build configuration list for PBXNativeTarget "Tap MeUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +519,7 @@
 				928283A71C89394D00B06323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
